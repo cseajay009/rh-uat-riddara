@@ -1,0 +1,19 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.zoom-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    position: relative;
+}
+.zoom-content {
+    transform: scale(4); /* Scale the content to 400% */
+    transform-origin: top left; /* Ensure scaling starts from the top-left corner */
+    width: 25vw; /* Adjust to ensure proper scaling within container */
+    height: 25vh; /* Adjust to ensure proper scaling within container */
+}
